@@ -15,7 +15,7 @@ Find a demo of a block that utilizes the new interactivity API in the [popup](./
 
 ## Block Bindings API Demo
 
-Find a demo of a custom block binding registry for use with the block bindings api in the [copy](./copy/) directory.
+Find a demo of a custom block binding registry for use with the block bindings api in the [copyright](./copyright/) directory.
 
 ---
 
