@@ -245,7 +245,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/popup","version":"0.1.0","title":"Popup","category":"widgets","icon":"media-interactive","description":"An interactive block with the Interactivity API","example":{},"supports":{"interactivity":true},"attributes":{"btnText":{"type":"rich-text","selector":"button","default":"Click me"}},"textdomain":"popup","editorScript":"file:./index.js","editorStyle":"file:./index.css","viewStyle":"file:./view.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/popup","version":"0.1.0","title":"Popup","category":"widgets","icon":"media-interactive","description":"An interactive block with the Interactivity API","example":{},"supports":{"interactivity":true},"attributes":{"btnText":{"type":"string","selector":"button","default":"Click me"}},"textdomain":"popup","editorScript":"file:./index.js","editorStyle":"file:./index.css","viewStyle":"file:./view.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
 
 /***/ })
 
