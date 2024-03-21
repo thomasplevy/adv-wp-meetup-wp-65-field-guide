@@ -16,7 +16,6 @@ store( 'create-block', {
 		toggle: () => {
 			const context = getContext();
 			context.isOpen = ! context.isOpen;
-			state
 		},
 	},
 	callbacks: {
