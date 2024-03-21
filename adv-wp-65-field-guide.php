@@ -12,4 +12,5 @@
  * @package         Adv_Wp_65_Field_Guide
  */
 
+require_once 'copyright/copyright.php';
 require_once 'popup/popup.php';
