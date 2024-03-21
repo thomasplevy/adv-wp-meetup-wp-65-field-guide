@@ -80,11 +80,19 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 
+
+/**
+ * Registers the interactivity store
+ * 
+ * Here we define actions (such as when we click the toggle button) and callback
+ * events which let us perform other actions when the store changes.
+ */
 (0,_wordpress_interactivity__WEBPACK_IMPORTED_MODULE_0__.store)('create-block', {
   actions: {
     toggle: () => {
       const context = (0,_wordpress_interactivity__WEBPACK_IMPORTED_MODULE_0__.getContext)();
       context.isOpen = !context.isOpen;
+      state;
     }
   },
   callbacks: {

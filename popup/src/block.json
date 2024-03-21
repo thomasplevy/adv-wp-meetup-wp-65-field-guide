@@ -13,7 +13,7 @@
 	},
 	"attributes": {
 		"btnText": {
-			"type": "string",
+			"type": "rich-text",
 			"selector": "button",
 			"default": "Click me"
 		}
