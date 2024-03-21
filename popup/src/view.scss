@@ -1,0 +1,21 @@
+.wp-block-create-block-popup {
+    .popup-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3);      
+    }
+    .popup-inner-content {
+        background: #fff;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 1em;
+        width: 480px;
+        max-width: 90%;
+        transform: translate(-50%, -50%);
+    }
+}

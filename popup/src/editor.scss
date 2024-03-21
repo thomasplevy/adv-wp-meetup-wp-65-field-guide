@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-popup {
+	button {
+		padding: 0.5em;
+		font-size: 1em;
+	}
+	.popup-content-wrapper {
+		margin-top: 1em;
+		padding: 1em;
+		border: 1px solid #ccc;
+	}
+}
